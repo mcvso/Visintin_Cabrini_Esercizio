@@ -12,7 +12,7 @@ public class Citta {
     private String nome;
     private float estensione;
     Abitante[] abitanti=new Abitante[3];
-    Edificio[] edifici=new Edificio[3];
+    
 
     
     public Citta(){}
