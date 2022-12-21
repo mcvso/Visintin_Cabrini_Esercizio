@@ -46,13 +46,7 @@ public class Citta {
         this.abitanti = abitanti;
     }
 
-    public Edificio[] getEdifici() {
-        return edifici;
-    }
-
-    public void setEdifici(Edificio[] edifici) {
-        this.edifici = edifici;
-    }
+   
     
     
     
