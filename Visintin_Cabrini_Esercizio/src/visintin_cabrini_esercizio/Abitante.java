@@ -61,9 +61,8 @@ public class Abitante {
     
     public String toString(){
     
-    for(int i = 0; i < 2; i++){   
-        return "Gli abitanti sono: " + abitante[i];
-    }
+        return "L'abitante sono: " + nome + " " + cognome + "\n" + data_di_nascita + "\n" + codice_fiscale;
+    
     }
     
 }
