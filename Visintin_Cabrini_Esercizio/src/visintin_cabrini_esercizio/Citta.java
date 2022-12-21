@@ -12,7 +12,6 @@ public class Citta {
     private String nome;
     private float estensione;
     Abitante[] abitanti=new Abitante[3];
-    Edificio[] edifici=new Edificio[3];
 
     
     public Citta(){}
@@ -45,16 +44,14 @@ public class Citta {
     public void setAbitanti(Abitante[] abitanti) {
         this.abitanti = abitanti;
     }
-
-    public Edificio[] getEdifici() {
-        return edifici;
+    
+    
+    @Override
+    public String toString(){
+        
+        return "La città " + nome + " ha un’estensione di " + estensione;
+    
+    
     }
-
-    public void setEdifici(Edificio[] edifici) {
-        this.edifici = edifici;
-    }
-    
-    
-    
     
 }

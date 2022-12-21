@@ -6,6 +6,7 @@ public class Abitante {
     private String cognome;
     private String data_di_nascita;
     private String codice_fiscale;
+    private String abitante[];
     
     public Abitante(){}
     
@@ -17,7 +18,9 @@ public class Abitante {
         
         this.data_di_nascita = data_di_nascita;
         
-        this.codice_fiscale = codice_fiscale;       
+        this.codice_fiscale = codice_fiscale;   
+        
+        this.abitante = new String[2];
     
     }
 
@@ -53,6 +56,14 @@ public class Abitante {
         this.codice_fiscale = codice_fiscale;
     }
     
+   
+    @Override
     
+    public String toString(){
+    
+    for(int i = 0; i < 2; i++){   
+        return "Gli abitanti sono: " + abitante[i];
+    }
+    }
     
 }
